@@ -1,0 +1,159 @@
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.font-link{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+}
+.search-head{
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(0, 255, 4);
+}
+
+header{
+    width: 980px;
+    height: 100px;
+}
+header img{
+    padding-left: 15px;
+    padding-right: 200px;
+    float: left;
+}
+
+nav .menu ul{
+    list-style: none;
+    padding-top: 35px;
+}
+nav .menu ul li{
+    float:left;
+    padding-left: 20px;
+}
+nav .menu ul a{
+    text-decoration: none;
+}
+
+.content{
+  width: 100%;
+  height: 1080px;
+  background-color: rgb(0, 255, 4);
+  border: 1px solid #004702;
+}
+
+#danhmuc{
+  width: 21%;
+  height: 1070px;
+  background-color: white;
+  border: 1px solid #004702;
+  float: left;
+  
+}
+#sell{
+  width: 78%;
+  height: 250px;
+  background-color: white;
+  border: 1px solid #004702;
+  float: right;
+}
+#sp{
+  width: 78%;
+  height: 810px;
+  background-color: white;
+  border: 1px solid #004702;
+  margin-top: 10px;
+  float: right;
+}
+
+.khuyenmai{
+  width: 700px;
+  height: 200px;
+  padding: 30px 0px;
+  margin: 0 auto;
+}
+
+.aboutus{
+  width: 950px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.spdoitac{
+  width: 200px;
+  height: 720px;
+  margin: 0 auto;
+  list-style: none;
+}
+.spsell{
+  width: 760px;
+  height: 220px;;
+  margin: 0 auto;
+  list-style: none;
+}
+.spsell li{
+  width: 190px; 
+  height: 200px; 
+  padding-left:50px; 
+  float:left;
+}
+#sp ul{
+  margin: 0 auto;
+  list-style: none;
+}
+#sp ul li{
+  width: 270px; 
+  height: 370px; 
+  padding-left:30px; 
+  float:left;
+}
+.ttsp{
+  margin: 0 auto;
+}
+
+.framsp{
+  width: 200%;
+  height: 240px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-content a {
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    border:1px;
+    border-color: black;
+    border-style: solid;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  

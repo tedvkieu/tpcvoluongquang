@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale=1">
+        
+        <title>Vô Lượng Quang</title>
+
+        <link rel="icon" type="image/x-icon" href="anh/f.png">
+        <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/reponsive_media.css">
+        <script src ="js/bootstrap.js"></script>
+        <script src ="js/bootstrap.min.js"></script>
+        <script src ="js/jquery-3.7.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link href = "bootstrap/css/bootstrap.min.css" rel = "stylesheet" type ="text/css"/>
+        <link href = "bootstrap/css/bootstrap.css" rel = "stylesheet" type ="text/css"/>
+    </head>
+    <body onload ="init()">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></button>
+        <div class="chatbox-container">
+            <div class="chatbox-header">
+               <div class="chatbox-title">What do you need help with?</div>
+               <div class="chatbox-close">&#10005;</div>
+            </div>
+            <div class="chatbox-message"></div>
+            <div class="chatbox-input">
+               <input type="text" placeholder="enter your message...">
+               <button>Send</button>
+            </div>
+         </div>
+         <button class="open-chatbox"><i class="fa fa-commenting" aria-hidden="true"></i> Request Support Here</button>
+         
+        <div class = "container-fluid hd">
+            <div class = "container dis-lap">
+                <div class = "row">
+                    <div class = "col-xl-6 col-lg-5 col-md-9 col-sm-8">
+                        <div class = "row">
+                            <div class ="col-xl-4 col-lg-5 col-md-6 col-sm-6">
+                                <p class ="info-p"><a href="#" class ="info"><i class="fa fa-envelope" aria-hidden="true"></i> dvkieu165@gmail.com</a></p>
+                            </div>
+                            <div class ="col-xl-8 col-lg-7 col-md-6 col-sm-6 separation-line">
+                                <p class ="info-p"><a href="#" class ="info">Free Shipping for all Order of $98</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class ="col-xl-6 col-lg-7 col-md-3 col-sm-4">
+                        <div class = "row">
+                            <div class = "col-lg-3 ct-icon">
+                                <ul class ="contact-icon">
+                                    <li><a href="https://www.facebook.com/zank.ieu/" class ="icon1"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/cookies.kay_/" class ="icon1"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.youtube.com/@TuDuyNguoc/" class ="icon1"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class = "col-lg-3 separation-line">
+                                <p class ="info-p ph ph1"><a href="settings.html" class ="info pc"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a></p>
+                            </div>
+                            <div class = "col-lg-3 separation-line">
+                                <p class ="info-p ph ph1"><a href="contact.html" class ="info pc"><i class="fa fa-envelope-open" aria-hidden="true"></i> Contact</a></p>
+                            </div>
+                            <div class = "col-lg-3 separation-line">
+                                <p class ="info-p ph ph2"><a href="login.html" class ="info pc"><i class="fa fa-user-circle" aria-hidden="true"></i> Login/Register</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class = "container-fluid menu-bar">
+            <div class = "container menu-lap">
+                <div class = "row">
+                    <div class = "col-xl-3 col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="index.html"><img src="anh/logo.png" alt="" class = "logof"></a>
+                    </div>
+                    <div class = "col-xl-6 col-lg-6 col-md-4 menu">
+                        <ul>
+                            <li><a href="index.html" class="drdown">Home</a></li>
+                            <li><a href="introduce.html" class="drdown">Introduce</a></li>
+                            <li>
+                                <div class="drdown">
+                                <button class="drbtn" style = "padding: 0 5px;">Shop <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drdown-content">
+                                    <a href="product.html">Au Lac</a>
+                                    <a href="product.html">Thanh Dung</a>
+                                    <a href="product.html">Hoa Y</a>
+                                </div>
+                            </div></li>
+                            <li><div class="drdown">
+                                <button class="drbtn" style = "padding: 0 5px;">Products <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drdown-content">
+                                    <a href="product.html">Omelettes</a>
+                                    <a href="product.html">Breakfast Scrambles</a>
+                                    <a href="product.html">Griddle</a>
+                                    <a href="product.html">Biscuits</a>
+                                    <a href="product.html">Seasonal Fruit Plate</a>
+                                </div>
+                            </div></li>
+                            <li>
+                                <div class="drdown">
+                                <button class="drbtn" style = "padding: 0 5px;">Blog <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drdown-content">
+                                    <a href="blog.html">Beauty</a>
+                                    <a href="blog.html">Fashion</a>
+                                    <a href="blog.html">Food</a>
+                                </div>
+                            </div></li>
+                            <!--<li><a href="#">Sản Phẩm từ đối tác</a></li>-->
+                        </ul>
+                    </div>
+                    <div class = "col-xl-3 col-lg-3 col-md-8 col-6 tab-dm">
+                        <div class ="row fav">
+                            <div class = "col-lg-2 col-md-7 col-sm-6 col-3 fav fav-product">
+                                <a href="fav.html" class = "mini-m"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                            </div>
+                            <div class = "col-lg-2 col-md-2 col-sm-2 col-3 fav fav-search">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                            <div class = "col-lg-8 col-md-2 col-sm-2 col-3 fav fav-cart">
+                                <a href="cart.html" class = "mini-m"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                <p id = "text-cart">&nbsp;My cart - 0đ</p>
+                            </div>
+                            <div class = "col-lg-2 col-md-1 col-sm-2 col-3 fav danhmuc">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+<!----------------------Noi dung hien thi cho man hinh nho--------------------------------------->
+                    <div class = "menu2">
+                        <ul>
+                            <li><a href="index.html" class="drddown">Home</a></li>
+                            <li><a href="introduce.html" class="drddown">Introduce</a></li>
+                            <li>
+                                <div class="drddown">
+                                <button class="drdbtn bshop" style = "padding: 0 5px;">Shop <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drd dshop">
+                                  <a href="product.html">Au Lac</a>
+                                  <a href="product.html">Thanh Dung</a>
+                                  <a href="product.html">Hoa Y</a>
+                                </div>
+                            </div></li>
+                            <li><div class="drddown">
+                                <button class="drdbtn bproducts" style = "padding: 0 5px;">Products <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drd dproducts">
+                                  <a href="product.html">Omelettes</a>
+                                  <a href="product.html">Breakfast Scrambles</a>
+                                  <a href="product.html">Griddle</a>
+                                  <a href="product.html">Biscuits</a>
+                                  <a href="product.html">Seasonal Fruit Plate</a>
+                                </div>
+                            </div></li>
+                            <li>
+                                <div class="drddown">
+                                <button class="drdbtn bblog" style = "padding: 0 5px;">Blog <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <div class="drd dblog">
+                                  <a href="blog.html">Beauty</a>
+                                  <a href="blog.html">Fashion</a>
+                                  <a href="blog.html">Food</a>
+                                </div>
+                            </div></li>
+                            <!--<li><a href="#">Sản Phẩm từ đối tác</a></li>-->
+                        </ul>
+                        <ul>
+                            <li><a href="#" class="drddown">Settings</a></li>
+                            <li><a href="contact.html" class="drddown">Contact</a></li>
+                            <li><a href="login.html" class="drddown">Login/Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "container-fluid ct-search">
+            <div class = "container">
+                <div class = "row search-bar">
+                    <div class = "col-lg-3 col-md-4">
+                        <span style ="float:right; padding-top: 10px;" class="subtitle">All the best item for You</span>
+                    </div>
+                    <div class = "col-lg-6 col-md-4 search-bar">
+                        <div class="header-search-bar layout-01">
+                            <form action="#" class="form-search" name="desktop-seacrh" method="get">
+                                <input type="text" name="s" class="input-text" value="" placeholder="Search here...">
+                                <button type="submit" class="btn-submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class = "col-lg-3 col-md-4 contact-txt">
+                        <h5><i class="fa fa-phone" aria-hidden="true"></i> (+84) 83 899 4841</h5>
+                        <p>Mon-Fri: 7h-19h -- Sat-Sun: 8h-17h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- -----------------------------Phan than trang------------------------------------>
+        <div class = "slider">
+            <div class="slideshow-container">
+                <div class="slide">
+                  <img class ="changeimg" src="anh/home-03/green-slide-01.jpg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                  <img class ="changeimg" src="anh/home-03/green-slide-02.jpg" alt="Slide 2">
+                </div>
+                <div class="text-content">
+                    <i class="first-line">Pomegranate</i>
+                    <h3 class="second-line">Vegetables 100% Organic</h3>
+                    <p class="third-line">A blend of freshly squeezed green apple &amp; fruits</p>
+                    <p class="buttons">
+                        <a href="index.html#main-products" class="buttons btn-bold" tabindex="0">Shop now</a>
+                        <a href="#" class="buttons btn-thin" tabindex="0">View lookbook</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "container main-content" id = "main-products">
+            <div class="biolife-title-box">
+                <span class="subtitle">All the best item for You</span>
+                <h3 class="main-title">Related Products</h3>
+            </div>
+            <div class = "icon-content">
+                <ul>
+                    <li><img src = "anh/fruit-icon/orange.png" class = "change-icon"></li>
+                    <li><img src = "anh/fruit-icon/grape.png" class = "change-icon"></li>
+                    <li><img src = "anh/fruit-icon/lemon.png" class = "change-icon"></li>
+                    <li><img src = "anh/fruit-icon/blueberries.png" class = "change-icon"></li>
+                    <li><img src = "anh/fruit-icon/lettuce.png" class = "change-icon"></i></li>
+                </ul>
+            </div>
+
+            <div class ="row">
+                <div class = "col-lg-3 col-md-4 col-sm-4 col-6 products">
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-02.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Hot Chili Peppers</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <p class="message-cart">All products are carefully selected to ensure food safety.</p>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-22.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Cherry Tomato Seeds</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-3 col-md-4 col-sm-4 col-6 products">
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-03.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Passover Cauliflower</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-12.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Carrot</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-05.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Organic Hass Avocado, Large</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "product">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-19.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">Pumpkins Fairytale</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class = "col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class = "product pr-none">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-07.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">13 Healing Powers of Lemons</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "product pr-none">
+                        <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-20.jpg" alt=""></a>
+                        <div class="info-product">
+                            <b class="categories">Vegetables</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">National Fresh Fruit</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class = "add-to-cart-phone">
+                                <a href="#" class="add-cart-phone">ADD TO CART</a>
+                            </div>
+                            <div class = "slide-down">
+                                <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                                <div class="buttons-cart"> 
+                                    <a href="#" class="add-cart">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class = "col-lg-3 col-md-4 col-sm-4 col-6 pr-edit pr-none">
+                <div class = "product">
+                    <a href="product-detail.html"><img class = "size-sp" src="anh/products/p-20.jpg" alt=""></a>
+                    <div class="info-product">
+                        <b class="categories">Vegetables</b>
+                        <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">National Fresh Fruit</a></h4>
+                        <div class="price">
+                            <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                            <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                        </div>
+                        <div class = "add-to-cart-phone">
+                            <a href="#" class="add-cart-phone">ADD TO CART</a>
+                        </div>
+                        <div class = "slide-down">
+                            <div><p class="message-cart">All products are carefully selected to ensure food safety.</p></div>
+                            <div class="buttons-cart"> 
+                                <a href="#" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class ="container">
+
+            <div class ="row">
+                
+                <div class  = "col-lg-4 col-md-6 col-sm-6">
+                    <div class ="deals-day">
+                        <h3 class ="text-deal">Deals of the day</h3>
+                    </div>
+                    <div class="contain-product deal-layout">
+                        <div class="product-thumb">
+                            <a href="product-detail.html" class="link-to-product" tabindex="0">
+                                <img src="anh/home-03/product_deal_330x330.jpg" alt="dd" width="330" height="330" class="product-thumnail">
+                            </a>
+                            <div class="labels">
+                                <span class="sale-label">-50%</span>
+                            </div>
+                        </div>
+                        <div class="info5">
+                            <b class="categories">Fresh Fruit</b>
+                            <h4 class="product-title"><a href="product-detail.html" class="pr-name" tabindex="0">National Fresh Fruit</a></h4>
+                            <div class="price">
+                                <span class="price-amount"><span class="currencySymbol">đ</span>85.000</span>
+                                <del><span class="price-amount1"><span class="currencySymbol">đ</span>95.000</span></del>
+                            </div>
+                            <div class="slide-down-box">
+                                <p class="message">All products are carefully selected to ensure food safety.</p>
+                                <div class="buttons-sp">
+                                    <a href="#" class="btn wishlist-btn" tabindex="0"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a href="#" class="btn add-to-cart-btn" tabindex="0">ADD TO CART</a>
+                                    <a href="#" class="btn compare-btn" tabindex="0"><i class="fa fa-random" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class  = "col-lg-8 col-md-6 col-sm-6">
+                    <div class ="top-rated">
+                        <h3 class ="text-deal">Top Rated Products</h3>
+                    </div>
+                    <div class ="row contain-product">
+                        <div class = "col-lg-6 col-md-12 col-sm-12 col-6 product-deal">
+                            <div class ="contain-deal">
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img src = "anh/products/p-19.jpg" alt = "không thể truy xuất vào ảnh" width = "270" height = "270" class = "imageChange1">
+                                </div> 
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6 info-deal">            
+                                    <h4><a href = "product-detail.html"> Pumpkins Fairytale</a></h4>
+                                    <h3 class = "price-amount">93,000 ₫</h3>
+                                    <span class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="review-count">(105 Reviews)</span>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class = "col-lg-6 col-md-6 col-sm-6 col-6 product-deal anno">
+                            <div class ="contain-deal">
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img src = "anh/products/p-02.jpg" alt = "không thể truy xuất vào ảnh" width = "270" height = "270" class = "imageChange1">
+                                </div> 
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6 info-deal">            
+                                    <h4><a href = "product-detail.html"> Hot Chili Peppers</a></h4>
+                                    <h3 class = "price-amount">93,000 ₫</h3>
+                                    <span class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="review-count">(105 Reviews)</span>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class ="row contain-product">
+                        <div class = "col-lg-6 col-md-12 col-sm-12 col-6 product-deal">
+                            <div class ="contain-deal">
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img src = "anh/products/p-03.jpg" alt = "không thể truy xuất vào ảnh" width = "270" height = "270" class = "imageChange1">
+                                </div> 
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6 info-deal">            
+                                    <h4><a href = "product-detail.html"> Passover Cauliflower</a></h4>
+                                    <h3 class = "price-amount">93,000 ₫</h3>
+                                    <span class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="review-count">(105 Reviews)</span>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class = "col-lg-6 col-md-6 col-sm-6 col-6 product-deal anno">
+                            <div class ="contain-deal">
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6">
+                                    <img src = "anh/products/p-22.jpg" alt = "không thể truy xuất vào ảnh" width = "270" height = "270" class = "imageChange1">
+                                </div> 
+                                <div class = "col-lg-6 col-md-6 col-sm-6 col-6 info-deal">            
+                                    <h4><a href = "product-detail.html"> Cherry Tomato</a></h4>
+                                    <h3 class = "price-amount">93,000 ₫</h3>
+                                    <span class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                    </span>
+                                    <span class="review-count">(105 Reviews)</span>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "row banner">
+                        <div class = "deal-banner">
+                            <img src = "anh/home-03/biolife-banner__style-01.jpg" alt = "không thể truy xuất vào ảnh" width = "770px" height ="207px" class = "anh-banner">
+                            <div class ="back-ban">
+                                <img src = "anh/home-03/banneer-black.png" alt = "không thể truy xuất vào ảnh" width = "770px" height ="207px" class = "anh-banner">
+                            </div>
+                            <div class="text-content1">
+                                <span class="first-line">Daily Fresh</span>
+                                <b class="second-line">Natural</b>
+                                <i class="third-line">Fresh Food</i>
+                                <span class="fourth-line">Premium Quality</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class ="container-fluid footer">
+            <div class = "container">
+                <div class = "row">
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <section class="footer-item">
+                            <a href="index.html" class="logo footer-logo"><img src="anh/logo.png" class = "logof"></a>
+                            <div class="footer-phone-info">
+                                <i class="fa fa-headphones" aria-hidden="true"></i>
+                                <p class="r-info">
+                                    <span>Got Questions ?</span>
+                                    <span>(+84)&nbsp; 83 899 48 41</span>
+                                </p>
+                            </div>
+                            <div class="newsletter-block layout-01">
+                                <h4 class="title">&nbsp;Newsletter Signup</h4>
+                                <div class="form-content">
+                                    <form action="#" name="new-letter-foter">
+                                        <input type="email" class="input-text email" value="" placeholder="Your email here...">
+                                        <button type="submit" class="bnt-submit" name="ok">Sign up</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class = "col-lg-4 anno">
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <section class="footer-item">
+                            <h3 class="section-title">Transport Offices</h3>
+                            <div class="contact-info-block">
+                                <ul class="contact-lines">
+                                    <li>
+                                        <div class="info-item">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <p class="desc">Q44 128 St. Phuoc Long A ward, Thu Duc district, Ho Chi Minh City, Viet Nam </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-item">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                            <p class="desc">Phone: (+84)&nbsp; 83 899 48 41</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-item">
+                                            <i style ="font-size: 25px;" class="fa fa-envelope-o" aria-hidden="true"></i>
+                                            <p class="desc">Email:  voluongquang@company.com</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-item">
+                                            <i style ="font-size: 25px;" class="fa fa-clock-o" aria-hidden="true"></i>
+                                            <p class="desc">Hours: 7 Days a week from 10:00 am</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="biolife-social inline">
+                                <ul class="socials">
+                                    <li><a href="#" title="twitter" class="socail-btn"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" title="facebook" class="socail-btn"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" title="pinterest" class="socail-btn"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" title="youtube" class="socail-btn"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" title="instagram" class="socail-btn"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!--*------------------------------------------------->
+        <script language="javascript" src = "script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,334 @@
+@media(min-width: 1200px){
+    .danhmuc{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .fav-search{
+        display: none;
+    }
+    .add-to-cart-phone{
+        display: none;
+    }
+    .pr-edit{
+        display: none;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1200px){
+    .danhmuc{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .fav-search{
+        display: none;
+    }
+    .add-to-cart-phone{
+        display: none;
+    }
+    .pr-edit{
+        display: none;
+    }
+    .slider{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        height: 450px;
+        position:relative;
+    }
+    img.changeimg{
+        width: initial;
+        height: 450px;
+        max-width: initial;
+        vertical-align:middle;
+        background-position: right center;
+        transform: translateX(-30%);
+    }
+    /*-------------------noi dung hd-----------------*/
+    div.container-fluid.hd{
+        padding:0;
+    }
+    .info i{
+        display: none;
+    }
+    span.review-count{
+        display: none;
+    }
+    
+}
+@media (min-width:741px) and (max-width:1023px){
+    .ph1{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .drd{
+        display: none;
+    }
+    .mini-m{
+        float: left;
+    }
+    #text-cart{
+        display: none;
+    }
+    div.fav-cart{
+        padding-right: 0;
+    }
+    .fav-product{
+        opacity: 0;
+    }
+    div.container-fluid.menu-bar{
+        padding: 0;
+    }
+    div.row.fav{
+        text-align: right;
+        margin: 0;
+    }
+    /*-------------------------*/
+    .ct-icon{
+        display: none;
+    }
+    .ct-search{
+        display: none;
+    }
+
+    .fav{
+        padding: 0;
+    }
+    div.danhmuc{
+        padding: 0;
+        margin-top:16px;
+    }
+    .danhmuc i{
+        font-size: 24px;
+        margin-right: 10px;
+        cursor:pointer;
+    }
+    .fav-search i{
+        font-size: 24px;
+    }
+    .fav i{
+        text-align: center;
+    }
+    /*--------------------slide------------*/
+    .slider{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        height: 450px;
+        position:relative;
+    }
+    img.changeimg{
+        width: initial;
+        height: 450px;
+        max-width: initial;
+        vertical-align:middle;
+        background-position: right center;
+        transform: translateX(-30%);
+    }
+    .container.main-contain{
+        padding: 0;
+    }
+    .icon-content{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .icon-content ul li{
+        margin: 10px;
+    }
+    .change-icon{
+        width: 50px;
+    }
+    .pr-edit{
+        display: flex;
+    }
+    .pr-none{
+        display: none;
+    }
+    /*--------------------*/
+    .add-to-cart-phone{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        color:#252525;
+        border-radius: 30px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .add-cart-phone{
+        font-family: Cairo, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .product:hover{
+        box-shadow: none;
+    }
+    
+    .slide-down{
+        display: none;
+    }
+    .message-cart{
+        display: none;
+    }
+    .info-deal h4{
+        font-size: 16px;
+    }
+    .anno{
+        display: none;
+    }
+    div.buttons-sp{
+        padding: 0;
+    }
+}   
+@media(max-width: 740px){
+    .hd{
+        display: none;
+    }
+    div.container-fluid.menu-bar{
+        padding: 0;
+    }
+    div.row.fav{
+        text-align: right;
+        margin: 0;
+    }
+    .menu{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
+    .mini-m{
+        float: left;
+    }
+    #text-cart{
+        display: none;
+    }
+    div.fav-cart{
+        padding-right: 0;
+    }
+    .fav-product{
+        opacity: 0;
+    }
+    .fav.danhmuc{
+        padding: 0;
+        cursor:pointer;
+        display: block;
+    }
+    .danhmuc{
+        width: 50%;
+        margin-top:18px;
+    }
+    .danhmuc i{
+        font-size: 24px;
+    }
+    .fav-search{
+        display: block;
+    }
+    .fav-search i{
+        font-size: 24px;
+    }
+    .ct-search{
+        display: none;
+    }
+    /*-----------------------------------*/
+    .drd{
+        display: none;
+    }
+    /*-------------------------------------*/
+    .slider{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        height: 480px;
+        position:relative;
+    }
+    img.changeimg{
+        width: initial;
+        height: 480px;
+        max-width: initial;
+        vertical-align:middle;
+        background-position: right center;
+        transform: translateX(-50%);
+    }
+    .text-content{
+        left: 0;
+    }
+    /*------------------------*/
+    .container.main-contain{
+        padding: 0;
+    }
+    .icon-content{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .icon-content ul li{
+        margin: 10px;
+    }
+    .change-icon{
+        width: 25px;
+    }
+    .pr-edit{
+        display: none;
+    }
+    .add-to-cart-phone{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        color:#252525;
+        border-radius: 30px;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .add-cart-phone{
+        font-family: Cairo, sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .product:hover{
+        box-shadow: none;
+    }
+    
+    .slide-down{
+        display: none;
+    }
+    .message-cart{
+        display: none;
+    }
+    /*-----------------------------------------*/
+    .product-deal a{
+        color: rgb(68 68 68); 
+        font-family: Cairo, sans-serif; 
+        text-decoration: none; 
+        font-size: 14px;
+        font-weight: 600;
+        padding: 0;
+    }
+    .review-count{
+        display: none;
+    }
+    .info-deal h4{
+        font-size: 14px;
+        margin: 0;
+    }
+    div.row.contain-product{
+        border: none;
+    }
+    .rating i{
+        font-size: 50%;
+    }
+    div.info-deal .price-amount{
+        font-size: 14px;
+    }
+    .post-item.style-left-info .thumbnail {
+        width: 100%;
+    }
+    .post-item.style-left-info .thumbnail a img{
+        width: 100%;
+    }
+}
